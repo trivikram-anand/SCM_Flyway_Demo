@@ -1,0 +1,6 @@
+﻿[flyway]
+locations = ["filesystem:sql"]
+
+[environments.dev]
+url = "jdbc:sqlserver://localhost:1433;databaseName=SCM_Flyway_Dev;encrypt=true;trustServerCertificate=true"
+user = "flyway_demo"
